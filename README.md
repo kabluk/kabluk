@@ -27,7 +27,7 @@ flowchart LR
 |---|---|---|
 | [solo-ai-workshop](https://github.com/kabluk/solo-ai-workshop) | Gate before build | My operating system as a template: project registry, research that must end in a verdict, agent rules |
 | [idea-gates](https://github.com/kabluk/idea-gates) | Gate before build | Claude Code skill: six feasibility gates before any market research |
-| [llm-news-triage](https://github.com/kabluk/llm-news-triage) | Source or drop | Claude API pipeline where every claim cites its source or is dropped · 92 tests |
+| [llm-news-triage](https://github.com/kabluk/llm-news-triage) | Source or drop | Claude API pipeline where every claim cites its source or is dropped · 63 tests |
 | [claude-code-kit](https://github.com/kabluk/claude-code-kit) | Test before trust | Subagents, commands, skills and hooks I reuse across 7+ repos |
 
 ## In production (closed source)
@@ -38,7 +38,7 @@ flowchart LR
 ## Numbers I'm proud of
 
 - **6+** ideas closed at the gate before a single line of code
-- **92** tests on an LLM pipeline where the model can only fail safely
+- **63** tests on an open-source LLM pipeline where the model can only fail safely
 - **1.4 s** sitemap response over 4.48M rows, down from HTTP 500
 
 ## Stack
