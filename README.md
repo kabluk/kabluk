@@ -33,9 +33,14 @@ flowchart LR
 ## In production (closed source)
 
 - **[CarrierTruth](https://carriertruth.com)**: 4.48M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 107K change events tracked.
+- **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 574 agencies, 794 tests.
+- **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~400 tests.
+- **[homeequitymath](https://homeequitymath.com)**: 19 home-equity calculators; lender rates re-verified against source pages and hidden when stale. 245 tests.
 - **IV Index** (pre-launch): mobile IV therapy directory where every price carries a source and a date. 192 providers, 239 pages.
 
 ## Numbers I'm proud of
+
+- **10** products and **5** live sites since April 2026, ~1,800 commits, ~1,700 automated tests
 
 - **6+** ideas closed at the gate before a single line of code
 - **63** tests on an open-source LLM pipeline where the model can only fail safely
