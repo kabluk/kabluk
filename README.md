@@ -7,6 +7,8 @@ then make the agents prove their work with sources, tests and build gates.
 
 Open to early-career AI engineering and AI ops roles · remote, US
 
+<p align="center"><img src="assets/stats.png" alt="10 products, 5 live sites, ~1,800 commits, ~1,700 tests, 6+ ideas closed at the gate (April to October 2026)" width="100%"></p>
+
 ## How I work
 
 ```mermaid
@@ -36,7 +38,29 @@ flowchart LR
 - **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 574 agencies, 794 tests.
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~400 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 19 home-equity calculators; lender rates re-verified against source pages and hidden when stale. 245 tests.
-- **IV Index** (pre-launch): mobile IV therapy directory where every price carries a source and a date. 192 providers, 239 pages.
+- **IV Index** (pre-launch): mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
+
+## Timeline
+
+```mermaid
+gantt
+  title Six months of solo building with agents
+  dateFormat YYYY-MM-DD
+  axisFormat %b
+  section Live
+  DetNav            :2026-04-13, 2026-10-03
+  AccessAtlas       :2026-08-05, 2026-09-16
+  CarrierTruth      :2026-08-14, 2026-10-06
+  homeequitymath    :2026-08-29, 2026-10-05
+  section Pre-launch
+  IV Index          :2026-08-19, 2026-10-02
+  section Closed, lesson logged
+  Lucralto          :crit, 2026-08-15, 2026-09-16
+  section Open source
+  Four public repos :2026-10-05, 2026-10-06
+```
+
+Case studies with screenshots, decisions and numbers: **[cases/](cases/)**
 
 ## Numbers I'm proud of
 
