@@ -41,7 +41,6 @@ flowchart LR
 ## Numbers I'm proud of
 
 - **10** products and **5** live sites since April 2026, ~1,800 commits, ~1,700 automated tests
-
 - **6+** ideas closed at the gate before a single line of code
 - **63** tests on an open-source LLM pipeline where the model can only fail safely
 - **1.4 s** sitemap response over 4.48M rows, down from HTTP 500
