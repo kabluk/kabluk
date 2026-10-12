@@ -38,7 +38,9 @@ flowchart LR
 - **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 574 agencies, 794 tests.
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~400 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 19 home-equity calculators; lender rates re-verified against source pages and hidden when stale. 245 tests.
-- **IV Index** (pre-launch): mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
+- **[IV Index](https://ivindex.com)** (soft launch, not yet indexed): mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
+- **[IMAGE Permanent Makeup](https://imagepmu.com)** (client site): studio site on Cloudflare Workers with a 96-frame scroll-driven hero, six service videos and a Cal.com booking proxy. 7 tests.
+- **FollowLens** (MVP in progress): cross-network follower tracker, Next.js + Supabase, Apify pipeline with retries and a plan-aware scheduler.
 
 ## Timeline
 
