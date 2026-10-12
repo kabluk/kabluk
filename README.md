@@ -74,4 +74,4 @@ Case studies with screenshots, decisions and numbers: **[cases/](cases/)**
 Python · TypeScript · SQL · Claude API · Claude Code · Cloudflare Workers / D1 · GitHub Actions · pytest · Playwright
 
 ## Contact
- · zincroom@gmail.com · 
+[LinkedIn](https://www.linkedin.com/in/evgenii-sklyarov) · zincroom@gmail.com
