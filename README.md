@@ -7,7 +7,7 @@ then make the agents prove their work with sources, tests and build gates.
 
 Open to early-career AI engineering and AI ops roles · remote, US
 
-<p align="center"><img src="assets/stats.png" alt="10 products, 5 live sites, ~1,800 commits, ~1,700 tests, 6+ ideas closed at the gate (April to October 2026)" width="100%"></p>
+<p align="center"><img src="assets/stats.png" alt="10 products, 6 live sites, ~2,500 commits, ~2,500 tests, 6+ ideas closed at the gate (April to October 2026)" width="100%"></p>
 
 ## How I work
 
@@ -38,7 +38,7 @@ flowchart LR
 - **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 574 agencies, 794 tests.
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~400 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 19 home-equity calculators; lender rates re-verified against source pages and hidden when stale. 245 tests.
-- **[IV Index](https://ivindex.com)** (soft launch, not yet indexed): mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
+- **[IV Index](https://ivindex.com)**: mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
 - **[IMAGE Permanent Makeup](https://imagepmu.com)** (client site): studio site on Cloudflare Workers with a 96-frame scroll-driven hero, six service videos and a Cal.com booking proxy. 7 tests.
 - **FollowLens** (MVP in progress): cross-network follower tracker, Next.js + Supabase, Apify pipeline with retries and a plan-aware scheduler.
 
@@ -50,12 +50,11 @@ gantt
   dateFormat YYYY-MM-DD
   axisFormat %b
   section Live
-  DetNav            :2026-04-13, 2026-10-03
-  AccessAtlas       :2026-08-05, 2026-09-16
-  CarrierTruth      :2026-08-14, 2026-10-06
-  homeequitymath    :2026-08-29, 2026-10-05
-  section Pre-launch
-  IV Index          :2026-08-19, 2026-10-02
+  DetNav            :2026-04-13, 2026-10-26
+  AccessAtlas       :2026-08-05, 2026-10-13
+  CarrierTruth      :2026-08-14, 2026-10-25
+  homeequitymath    :2026-08-29, 2026-10-26
+  IV Index          :2026-08-19, 2026-10-26
   section Closed, lesson logged
   Lucralto          :crit, 2026-08-15, 2026-09-16
   section Open source
@@ -66,7 +65,7 @@ Case studies with screenshots, decisions and numbers: **[cases/](cases/)**
 
 ## Numbers I'm proud of
 
-- **10** products and **5** live sites since April 2026, ~1,800 commits, ~1,700 automated tests
+- **10** products and **6** live sites since April 2026, ~2,500 commits, ~2,500 automated tests
 - **6+** ideas closed at the gate before a single line of code
 - **63** tests on an open-source LLM pipeline where the model can only fail safely
 - **1.4 s** sitemap response over 4.48M rows, down from HTTP 500
