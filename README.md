@@ -7,7 +7,7 @@ then make the agents prove their work with sources, tests and build gates.
 
 Open to early-career AI engineering and AI ops roles · remote, US
 
-<p align="center"><img src="assets/stats.png" alt="10 products, 6 live sites, ~2,500 commits, ~2,500 tests, 6+ ideas closed at the gate (April to October 2026)" width="100%"></p>
+<p align="center"><img src="assets/stats.png" alt="10 products, 6 live sites, ~2,500 commits, ~3,500 tests, 6+ ideas closed at the gate (April to October 2026)" width="100%"></p>
 
 ## How I work
 
@@ -35,9 +35,9 @@ flowchart LR
 ## In production (closed source)
 
 - **[CarrierTruth](https://carriertruth.com)**: 4.48M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 107K change events tracked.
-- **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 574 agencies, 794 tests.
-- **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~400 tests.
-- **[homeequitymath](https://homeequitymath.com)**: 19 home-equity calculators; lender rates re-verified against source pages and hidden when stale. 245 tests.
+- **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 574 agencies, 884 tests.
+- **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~470 tests.
+- **[homeequitymath](https://homeequitymath.com)**: 117 calculators and 32 unit converters (home equity, mortgage, home projects); lender rates re-verified against source pages and hidden when stale. 1,631 tests.
 - **[IV Index](https://ivindex.com)**: mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
 - **[IMAGE Permanent Makeup](https://imagepmu.com)** (client site): studio site on Cloudflare Workers with a 96-frame scroll-driven hero, six service videos and a Cal.com booking proxy. 7 tests.
 - **FollowLens** (MVP in progress): cross-network follower tracker, Next.js + Supabase, Apify pipeline with retries and a plan-aware scheduler.
@@ -65,7 +65,7 @@ Case studies with screenshots, decisions and numbers: **[cases/](cases/)**
 
 ## Numbers I'm proud of
 
-- **10** products and **6** live sites since April 2026, ~2,500 commits, ~2,500 automated tests
+- **10** products and **6** live sites since April 2026, ~2,500 commits, ~3,500 automated tests
 - **6+** ideas closed at the gate before a single line of code
 - **63** tests on an open-source LLM pipeline where the model can only fail safely
 - **1.4 s** sitemap response over 4.48M rows, down from HTTP 500

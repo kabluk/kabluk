@@ -41,7 +41,7 @@ flowchart LR
 |---|---|
 | Agencies in the catalog | 574 |
 | Countries | 19 |
-| Automated tests | 794 (worker 522, src 210, scripts 62) |
+| Automated tests | 884 (worker and scripts 629, src 255; run 2026-10-26) |
 | EN 301 549 web criteria with an automated check | 31 of 50 |
 | Free checkers | 10 |
 | Decisions logged | 187 |

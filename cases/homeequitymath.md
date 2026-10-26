@@ -10,7 +10,7 @@ US homeowners comparing a HELOC, a home-equity loan or a cash-out refinance usua
 
 ## What I built
 
-- 19 calculators in two groups: borrowing against a home (HELOC, home-equity loan, cash-out refinance, recast, ARM, points, break-even and others) and project cost estimates (renovation, ADU, addition, basement, pool, solar loan).
+- 117 calculators and 32 unit converters in 20 category hubs (count from the live sitemap, 2026-10-26): borrowing against a home (HELOC, home-equity loan, cash-out refinance, recast, ARM, points, break-even and others), mortgages, and home-project estimates (deck, fence, concrete, roof, driveway, electrical, heating and cooling, pool, ADU, basement and more).
 - Two rate tables with 20 lender rows. Each row stores the source URL and the date it was observed.
 - A freshness policy in code: rows older than 14 days are hidden, not shown with a warning. If coverage drops below target, the rate page returns to `noindex` and leaves the sitemap instead of sitting in search with an empty table.
 - A neutral sort: by APR by default, with no field for affiliate status, so the sort cannot favour a payer.

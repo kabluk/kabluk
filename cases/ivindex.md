@@ -2,7 +2,7 @@
 
 ![screenshot](img/ivindex.png)
 
-**Live:** https://ivindex.com (pre-launch, `noindex`) · **Stack:** Node build from SQLite, static HTML and CSS, Cloudflare Workers, D1, MapLibre · **Built:** Aug–Oct 2026 · **Status:** pre-launch; site complete on the production domain, closed to search engines
+**Live:** https://ivindex.com · **Stack:** Node build from SQLite, static HTML and CSS, Cloudflare Workers, D1, MapLibre · **Built:** Aug–Oct 2026 · **Status:** live and open to search engines (noindex lifted in October 2026)
 
 ## The problem
 
