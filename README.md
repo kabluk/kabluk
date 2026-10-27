@@ -39,7 +39,7 @@ flowchart LR
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,089 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~470 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 117 calculators and 32 unit converters (home equity, mortgage, home projects); lender rates re-verified against source pages and hidden when stale. 1,631 tests.
 - **[IV Index](https://ivindex.com)**: mobile IV therapy directory where every price carries a source and a date. 192 providers, 238 pages.
-- **[IMAGE Permanent Makeup](https://imagepmu.com)** (client site): studio site on Cloudflare Workers with a 96-frame scroll-driven hero, six service videos and a Cal.com booking proxy. 7 tests.
+- **[IMAGE Permanent Makeup](https://imagepmu.com)** (client site): studio site on Cloudflare Workers plus an AI phone receptionist on Vapi that answers the studio's line, books into the same Cal.com calendar as the website and sends call summaries to the owner. The prompt is generated from the site's service list, so phone and site cannot disagree. 33 tests.
 - **FollowLens** (MVP in progress): cross-network follower tracker, Next.js + Supabase, Apify pipeline with retries and a plan-aware scheduler.
 
 ## Timeline
