@@ -10,7 +10,7 @@ The European Accessibility Act pushed many businesses selling in the EU to get a
 
 ## What I built
 
-- A directory of 574 verified audit agencies across 19 countries. Every record carries at least one source link and a verification date; unknown fields stay empty instead of being guessed.
+- A directory of 575 verified audit agencies across 19 countries. Every record carries at least one source link and a verification date; unknown fields stay empty instead of being guessed.
 - A scanner: headless Chromium plus axe-core runs on Cloudflare Browser Rendering, crawls several pages of a site and scores the result.
 - Plain-language explanations of each finding from Claude Haiku, cached in KV per rule and locale (`worker/lib/explain.js`). The prompt never sees the customer's HTML, so one site's wording cannot leak into the cache for everyone else.
 - A paid PDF remediation plan through Stripe Checkout (verified end to end in test mode), printed by the same headless browser.
@@ -39,9 +39,9 @@ flowchart LR
 
 | Fact | Value |
 |---|---|
-| Agencies in the catalog | 574 |
+| Agencies in the catalog | 575 |
 | Countries | 19 |
-| Automated tests | 884 (worker and scripts 629, src 255; run 2026-10-26) |
+| Automated tests | 920 (test run 2026-11-01) |
 | EN 301 549 web criteria with an automated check | 31 of 50 |
 | Free checkers | 10 |
 | Decisions logged | 187 |

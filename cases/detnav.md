@@ -8,7 +8,7 @@ When someone is taken into US immigration detention, their family has to find ou
 
 ## What I built
 
-- A static site of about 1,089 URLs in four languages (English, Spanish, Russian, Simplified Chinese): facility pages, court pages with bond statistics, state and city pages, and guides.
+- A static site of about 1,150 URLs in four languages (English, Spanish, Russian, Simplified Chinese): facility pages, court pages with bond statistics, state and city pages, and guides.
 - A facility dataset built from public sources: 196 facilities from an open detention dataset, enriched by a rate-limited crawl of the official facility pages for phone, hours and visiting rules, each facility carrying its source URL and check date.
 - A translation parity check in CI: each language file must match the English skeleton (keys, array lengths, links, placeholders), so a missing step in one language fails the build.
 - A CI linter that blocks wording that reads like individual legal advice, with phrase lists in all four languages (no "you should", outcome predictions, "best option" or eligibility claims).
@@ -35,7 +35,7 @@ flowchart LR
 
 | Fact | Value |
 |---|---|
-| URLs in sitemap | ~1,089 |
+| URLs in sitemap | ~1,150 |
 | Languages | 4, with structural parity check |
 | Facilities in the directory | 196 |
 | Tests | ~400 (406 test cases) |
