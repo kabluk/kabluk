@@ -11,7 +11,7 @@ Mobile IV therapy providers come to your home, so they have no storefront and no
 ## What I built
 
 - A niche chosen from a 101-niche sweep scored on live DataForSEO data: demand, CPC, trend, resistance to AI answers and competitive gap.
-- A catalog of 637 providers in 30 metro areas. Each price, coverage zone and licence result stores its source URL and date, and coverage is labelled as either stated by the provider or inferred.
+- A catalog of 646 providers in 30 metro areas. Each price, coverage zone and licence result stores its source URL and date, and coverage is labelled as either stated by the provider or inferred.
 - Coverage search: a place resolves to a point, and the results show providers whose zone reaches it. The map draws only geography we actually have.
 - A licence pipeline: the federal NPI registry (NPPES) as an automatic first pass that finds leads, then a check against the state board for the badge. An NPI lead never becomes a badge by itself.
 - A publication gate in SQL: a metro page goes live only with at least three providers with coverage and at least one sourced price.

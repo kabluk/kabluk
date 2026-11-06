@@ -34,11 +34,11 @@ flowchart LR
 
 ## In production (closed source)
 
-- **[CarrierTruth](https://carriertruth.com)**: 4.5M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 107K change events tracked. Remote [MCP server](https://carriertruth.com/mcp) for Claude (Cloudflare Workers, Streamable HTTP): 3 read-only tools, per-IP rate limit, 29 tests.
+- **[CarrierTruth](https://carriertruth.com)**: 4.5M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 657K change events (467K detected since daily tracking began in August 2026). Remote [MCP server](https://carriertruth.com/mcp) for Claude (Cloudflare Workers, Streamable HTTP): 3 read-only tools, per-IP rate limit, 29 tests.
 - **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 575 agencies, 996 tests.
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,150 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~480 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 495 calculators and 32 unit converters (home equity, mortgage, home projects); lender rates re-verified against source pages and hidden when stale. 5,602 tests.
-- **[IV Index](https://ivindex.com)**: mobile IV therapy directory where every price carries a source and a date. 637 providers in 30 metros, 776 pages.
+- **[IV Index](https://ivindex.com)**: mobile IV therapy directory where every price carries a source and a date. 646 providers in 30 metros, 776 pages.
 - **[IMAGE Permanent Makeup](https://imagepmu.com)** (client site): studio site on Cloudflare Workers plus an AI phone receptionist on Vapi that answers the studio's line, books into the same Cal.com calendar as the website and sends call summaries to the owner. The prompt is generated from the site's service list, so phone and site cannot disagree. 33 tests.
 - **FollowLens** (MVP in progress): cross-network follower tracker, Next.js + Supabase, Apify pipeline with retries and a plan-aware scheduler.
 
