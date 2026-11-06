@@ -34,7 +34,7 @@ flowchart LR
 
 ## In production (closed source)
 
-- **[CarrierTruth](https://carriertruth.com)**: 4.48M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 107K change events tracked.
+- **[CarrierTruth](https://carriertruth.com)**: 4.48M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 107K change events tracked. Remote [MCP server](https://carriertruth.com/mcp) for Claude (Cloudflare Workers, Streamable HTTP): 3 read-only tools, per-IP rate limit, 28 tests.
 - **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 575 agencies, 920 tests.
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,150 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~480 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 474 calculators and 32 unit converters (home equity, mortgage, home projects); lender rates re-verified against source pages and hidden when stale. 5,262 tests.
