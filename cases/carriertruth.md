@@ -12,7 +12,7 @@ FMCSA publishes the current state of the US carrier registry, not its history. B
 
 - A snapshot-and-diff ETL on GitHub Actions over 10 FMCSA open-data feeds: each run stores a manifest with URL, row count and sha256 per file, so the origin of every snapshot can be proven.
 - A delta engine that turns two snapshots into 12 event types (new authority, revocation, suspension, insurance lapse or filing, address, name, phone and fleet changes, status flips): 107,026 events loaded.
-- A full catalog of 4,484,464 carriers in D1, active and inactive, rendered as Astro SSR pages on a Cloudflare Worker.
+- A full catalog of 4,525,356 carriers in D1, active and inactive, rendered as Astro SSR pages on a Cloudflare Worker.
 - A zero-downtime reload: shards load into a shadow table while the live one keeps serving, and a single swap transaction runs only after every shard succeeds.
 - State and city hubs, a bulk CSV check, phone lookup, and a sitemap index of about 250 shards.
 - Cost tests on hot paths such as search and migrations, written after measuring what each path actually costs in D1.
@@ -38,7 +38,7 @@ flowchart LR
 
 | Fact | Value |
 |---|---|
-| Carriers in the database | 4,484,464 |
+| Carriers in the database | 4,525,356 (live site, 2026-11-04) |
 | Change events tracked | 107,026 |
 | FMCSA feeds snapshotted | 10 |
 | GitHub Actions workflows | 8 |
