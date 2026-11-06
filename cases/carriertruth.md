@@ -2,7 +2,7 @@
 
 ![screenshot](img/carriertruth.png)
 
-**Live:** https://carriertruth.com · **Stack:** Astro SSR, Cloudflare Workers, D1, GitHub Actions, Node ETL scripts · **Built:** Aug–Oct 2026 · **Status:** live, data refreshed on a schedule
+**Live:** https://carriertruth.com · **Stack:** Astro SSR, Cloudflare Workers, D1, GitHub Actions, Node ETL scripts, MCP · **Built:** Aug–Nov 2026 · **Status:** live, data refreshed on a schedule
 
 ## The problem
 
@@ -16,6 +16,7 @@ FMCSA publishes the current state of the US carrier registry, not its history. B
 - A zero-downtime reload: shards load into a shadow table while the live one keeps serving, and a single swap transaction runs only after every shard succeeds.
 - State and city hubs, a bulk CSV check, phone lookup, and a sitemap index of about 250 shards.
 - Cost tests on hot paths such as search and migrations, written after measuring what each path actually costs in D1.
+- A remote MCP server (live since 2026-11-06, setup at [carriertruth.com/mcp](https://carriertruth.com/mcp)) so AI assistants such as Claude can check a carrier directly: 3 read-only tools (`lookup_carrier`, `carrier_history`, `recent_changes`) on Cloudflare Workers over Streamable HTTP, a per-IP rate limit of 60 requests per minute and a SELECT-only database driver. 29 tests run through the real handler; MCP Inspector found 2 input bugs the tests had missed.
 
 ## Architecture
 
