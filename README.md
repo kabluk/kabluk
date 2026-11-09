@@ -34,7 +34,7 @@ flowchart LR
 
 ## In production (closed source)
 
-- **[CarrierTruth](https://carriertruth.com)**: 4.5M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 657K change events (467K detected since daily tracking began in August 2026). Remote [MCP server](https://carriertruth.com/mcp) for Claude (Cloudflare Workers, Streamable HTTP): 3 read-only tools, per-IP rate limit, 29 tests.
+- **[CarrierTruth](https://carriertruth.com)**: 4.5M US trucking carriers from FMCSA open data. Daily snapshot-and-diff ETL on GitHub Actions + Cloudflare D1, 669K change events (478K detected since daily tracking began in August 2026). Remote [MCP server](https://carriertruth.com/mcp) for Claude (Cloudflare Workers, Streamable HTTP): 3 read-only tools, per-IP rate limit, 29 tests.
 - **[AccessAtlas](https://verscala.com)**: accessibility-auditor directory and site scanner. Headless Chromium + axe-core on Cloudflare, Claude Haiku explains each finding, PDF fix plans. 575 agencies, 996 tests.
 - **[DetNav](https://detnav.com)**: multilingual public-information service, ~1,150 pages in 4 languages, Stripe and WebAuthn, CI checks for translation parity. ~480 tests.
 - **[homeequitymath](https://homeequitymath.com)**: 495 calculators and 32 unit converters (home equity, mortgage, home projects); lender rates re-verified against source pages and hidden when stale. 5,602 tests.
@@ -50,11 +50,11 @@ gantt
   dateFormat YYYY-MM-DD
   axisFormat %b
   section Live
-  DetNav            :2026-04-13, 2026-11-03
-  AccessAtlas       :2026-08-05, 2026-11-05
-  CarrierTruth      :2026-08-14, 2026-11-06
-  homeequitymath    :2026-08-29, 2026-11-06
-  IV Index          :2026-08-19, 2026-11-06
+  DetNav            :2026-04-13, 2026-11-07
+  AccessAtlas       :2026-08-05, 2026-11-07
+  CarrierTruth      :2026-08-14, 2026-11-08
+  homeequitymath    :2026-08-29, 2026-11-07
+  IV Index          :2026-08-19, 2026-11-07
   section Closed, lesson logged
   Lucralto          :crit, 2026-08-15, 2026-09-16
   section Open source

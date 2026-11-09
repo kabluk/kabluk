@@ -4,7 +4,7 @@ Five products I built solo in 2026 by directing Claude Code agents. Each page co
 
 | Product | What | Live | Headline number |
 |---|---|---|---|
-| [CarrierTruth](carriertruth.md) | US trucking carrier registry with a daily change history | [carriertruth.com](https://carriertruth.com) | 4,525,356 carriers, 657,465 change events |
+| [CarrierTruth](carriertruth.md) | US trucking carrier registry with a daily change history | [carriertruth.com](https://carriertruth.com) | 4,525,356 carriers, 668,711 change events |
 | [AccessAtlas](accessatlas.md) | Accessibility auditor directory plus a headless-browser site scanner | [verscala.com](https://verscala.com) | 575 agencies, 19 countries, 996 tests |
 | [DetNav](detnav.md) | Multilingual information for families of people held in US immigration detention | [detnav.com](https://detnav.com) | ~1,150 pages in 4 languages |
 | [homeequitymath](homeequitymath.md) | Home-equity calculators with dated, re-verified lender rates | [homeequitymath.com](https://homeequitymath.com) | 495 calculators and 32 unit converters, 20 lender rates, 5,602 tests |
